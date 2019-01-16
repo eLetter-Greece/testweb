@@ -99,6 +99,7 @@ public class UserServlet extends HttpServlet {
             }
             else {
                 sendLoginOutput(request, response, false);
+                
             }
                 
         } catch (SQLException ex) {
